@@ -20,7 +20,7 @@ const About = () => {
             <section className="about-hero">
                 <div className="container">
                     <div className="hero-grid">
-                        <div className="hero-text animate-slide-left">
+                        <div className="hero-text">
                             <span className="hero-badge">Especialista em Nutrição Funcional</span>
 
                             <h1 className="text-headline-lg-mobile md-text-display-lg">
@@ -33,7 +33,7 @@ const About = () => {
                             </p>
                         </div>
 
-                        <div className="hero-image-about animate-slide-right">
+                        <div className="hero-image-about">
                             <div className="image-frame">
                                 <img
                                     src="/fabiano2.png"
@@ -185,7 +185,7 @@ const About = () => {
 
                     <div className="media-grid">
                         {/* Video Section */}
-                        <div className="video-container animate-slide-left">
+                        <div className="video-container">
                             <div className="video-wrapper">
                                 <iframe
                                     width="100%"
@@ -193,19 +193,20 @@ const About = () => {
                                     src="https://www.youtube.com/embed/vYIdtnSyOVs"
                                     title="Entrevista Dr. Fabiano Rodrigues"
                                     frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture, web-share"
                                     allowFullScreen
+                                    style={{ pointerEvents: 'auto'}}
                                 ></iframe>
                             </div>
                             <div className="video-info">
                                 <h3 className="text-headline-sm">Entrevista: #Bora Comigo - Ep 97 - Fabiano Rodrigues - Nutricionista</h3>
                                 <p className="text-body-md text-muted">
-                                    Entrevisa com Fabiano Rodrigues no podcast Bora Comigo transmitido ao vivo em 20 de Janeiro de 2026.
+                                    Entrevisa com Dr. Fabiano Rodrigues no podcast Bora Comigo transmitido ao vivo em 20 de Janeiro de 2026.
                                 </p>
                             </div>
                         </div>
                         {/* Instagram Section */}
-                        <div className="instagram-container animate-slide-right">
+                        <div className="instagram-container ">
                             <div className="instagram-card">
                                 <div className="instagram-header">
                                     <div className="instagram-avatar">

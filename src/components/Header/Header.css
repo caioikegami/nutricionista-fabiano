@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0 var(--stack-md);
 }
 
 .logo {
@@ -28,6 +29,7 @@
     align-items: center;
     gap: 8px;
     text-decoration: none;
+    flex-shrink: 0;
 }
 
 .logo-image {
@@ -41,11 +43,23 @@
     transform: scale(1.05);
 }
 
+/* NAV-MENU DESKTOP - HORIZONTAL */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: var(--stack-md);
+    flex: 1;
+    justify-content: flex-end;
+}
+
+/* NAV-LINKS DESKTOP - HORIZONTAL */
 .nav-links {
     display: flex;
     gap: var(--stack-md);
     align-items: center;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
@@ -85,12 +99,6 @@
     color: var(--primary);
 }
 
-.nav-menu {
-    display: flex;
-    align-items: center;
-    gap: var(--stack-md);
-}
-
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -122,20 +130,27 @@
     transform: rotate(-45deg) translate(7px, -7px);
 }
 
-/* Mobile Responsividade */
+/* ===== MOBILE RESPONSIVIDADE ===== */
+
 @media (max-width: 768px) {
     .header {
         height: 64px;
     }
 
     .logo-image {
-        height: 40px;
+        height: 50px;
+    }
+
+    .nav-container {
+        padding: 0 var(--stack-sm);
     }
 
     .menu-toggle {
         display: flex;
+        order: 2;
     }
 
+    /* MENU HAMBURGUER - VERTICAL */
     .nav-menu {
         position: absolute;
         top: 100%;
@@ -150,12 +165,21 @@
         transition: max-height 0.3s ease;
         border-bottom: 1px solid var(--outline-variant);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        width: 100vw;
+        left: -var(--stack-sm);
+        padding-left: var(--stack-md);
+        padding-right: var(--stack-md);
+        pointer-events: none;
+        visibility: hidden;
     }
 
     .nav-menu.active {
-        max-height: 500px;
+        max-height: 550px;
+        pointer-events: auto;
+        visibility: visible;
     }
 
+    /* NAV-LINKS MOBILE - VERTICAL */
     .nav-links {
         flex-direction: column;
         width: 100%;
@@ -166,6 +190,7 @@
         width: 100%;
         padding: 12px 0;
         border-bottom: 1px solid var(--outline-variant);
+        font-size: 13px;
     }
 
     .nav-links a:last-child {
@@ -178,6 +203,7 @@
 
     .nav-menu .btn {
         width: 100%;
+        margin-top: 8px;
     }
 }
 
@@ -187,6 +213,20 @@
     }
 
     .logo-image {
-        height: 36px;
+        height: 200px;
+    }
+
+    .nav-menu.active {
+        max-height: 550px;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .nav-menu {
+        width: 100vw;
+        left: -var(--stack-sm);
     }
 }

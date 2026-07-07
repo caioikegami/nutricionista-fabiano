@@ -1,5 +1,6 @@
 .about-page {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
+    position: relative;
 }
 
 /* ================= HERO SECTION ================= */
@@ -417,6 +418,7 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--gutter);
     align-items: start;
+    pointer-events: none;
 }
 
 /* ================= VIDEO CONTAINER ================= */
@@ -424,19 +426,18 @@
     display: flex;
     flex-direction: column;
     gap: var(--stack-md);
+    position: relative;
 }
 
 .video-wrapper {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
-    /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
+    aspect-ratio: 16 / 9;
     border-radius: 16px;
     background-color: var(--surface-container);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     border: 1px solid var(--outline-variant);
+    pointer-events: auto !important;
 }
 
 .video-wrapper iframe {
@@ -447,6 +448,7 @@
     height: 100%;
     border: none;
     border-radius: 16px;
+    pointer-events: auto !important;
 }
 
 .video-info {
@@ -505,7 +507,6 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    overflow: hidden;
     background-color: var(--surface-container);
     flex-shrink: 0;
 }
@@ -595,6 +596,7 @@
 @media (max-width: 1024px) {
     .media-grid {
         grid-template-columns: 1fr;
+        pointer-events: none !important;
     }
 
     .instagram-container {
@@ -611,11 +613,6 @@
         padding: var(--stack-md) 0;
     }
 
-    .media-header h2 {
-        font-size: 32px;
-        margin-bottom: var(--stack-sm);
-    }
-
     .media-subtitle {
         font-size: 14px;
     }
@@ -623,13 +620,23 @@
     .media-grid {
         grid-template-columns: 1fr;
         gap: var(--stack-md);
+        pointer-events: none !important;
+    }
+
+    .video-container {
+        pointer-events: none;
     }
 
     .video-wrapper {
-        padding-bottom: 56.25%;
+        pointer-events: auto !important;
+    }
+
+    .video-wrapper iframe {
+        pointer-events: auto !important;
     }
 
     .video-info {
+        pointer-events: auto;
         padding: var(--stack-sm);
     }
 
@@ -696,7 +703,13 @@
     }
 
     .video-wrapper {
+        pointer-events: auto !important;
         padding-bottom: 56.25%;
+    }
+
+    .video-wrapper iframe {
+        pointer-events: auto !important;
+        z-index: 2;
     }
 
     .video-info {
@@ -893,6 +906,7 @@
     }
 
     .biography-text h2 {
+        text-align: center;
         font-size: 24px;
     }
 
@@ -905,10 +919,12 @@
     }
 
     .credential-text {
+        text-align: center;
         font-size: 12px;
     }
 
     .credential-icon {
+        text-align: center;
         font-size: 20px;
     }
 

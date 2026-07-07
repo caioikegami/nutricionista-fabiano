@@ -90,6 +90,190 @@
         grid-template-columns: 1fr;
     }
 
+    .location-map-section {
+        padding: var(--stack-lg) 0;
+        background-color: var(--background);
+    }
+
+    .location-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--gutter);
+        align-items: start;
+    }
+
+    .clinic-info {
+        display: flex;
+        flex-direction: column;
+        gap: var(--stack-md);
+    }
+
+    .clinic-info h2 {
+        color: var(--primary);
+        margin: 0;
+    }
+
+    .address-block,
+    .contact-block {
+        display: flex;
+        gap: var(--stack-sm);
+        align-items: flex-start;
+    }
+
+    .address-block .material-symbols-outlined,
+    .contact-block .material-symbols-outlined {
+        color: var(--secondary);
+        font-size: 24px;
+        flex-shrink: 0;
+        margin-top: 4px;
+    }
+
+    .address-block h3,
+    .contact-block h3 {
+        font-size: 16px;
+        color: var(--primary);
+        margin: 0 0 4px 0;
+        font-weight: 600;
+    }
+
+    .address-block p,
+    .contact-block a {
+        margin: 0;
+        color: var(--on-surface-variant);
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .contact-block a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+    .contact-block a:hover {
+        color: var(--secondary);
+        text-decoration: underline;
+    }
+
+    .btn-map {
+        align-self: flex-start;
+        margin-top: var(--stack-sm);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .map-container {
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        height: 500px;
+    }
+
+    .google-map-iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Responsividade */
+
+    @media (max-width: 1024px) {
+        .location-container {
+            grid-template-columns: 1fr;
+        }
+
+        .btn-map {
+            align-self: center;
+        }
+
+        .map-container {
+            height: 400px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .location-map-section {
+            padding: var(--stack-md) 0;
+        }
+
+        .clinic-info {
+            text-align: center;
+            /* ← CENTRALIZA TUDO */
+            align-items: center;
+            /* ← CENTRALIZA FLEX ITEMS */
+        }
+
+        .clinic-info h2 {
+            font-size: 24px;
+        }
+
+        .address-block,
+        .contact-block {
+            flex-direction: column;
+            /* ← EMPILHA VERTICALMENTE */
+            align-items: center;
+            /* ← CENTRALIZA ITEMS */
+            text-align: center;
+            /* ← CENTRALIZA TEXTO */
+        }
+
+        .address-block .material-symbols-outlined,
+        .contact-block .material-symbols-outlined {
+            margin-top: 0;
+            /* ← REMOVE MARGEM */
+        }
+
+        .address-block h3,
+        .contact-block h3 {
+            font-size: 14px;
+        }
+
+        .btn-map {
+            align-self: center;
+            margin-top: var(--stack-md);
+        }
+
+        .map-container {
+            height: 300px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .clinic-info {
+            text-align: center;
+            align-items: center;
+        }
+
+        .address-block,
+        .contact-block {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: var(--unit);
+        }
+
+        .address-block .material-symbols-outlined,
+        .contact-block .material-symbols-outlined {
+            margin-top: 0;
+        }
+
+        .map-container {
+            height: 250px;
+        }
+
+        .btn-map {
+            align-self: center;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    .btn-map {
+        align-self: center;
+    }
+
+
     .map-container {
         height: 400px;
     }
@@ -101,11 +285,13 @@
     }
 
     .clinic-info h2 {
+        text-align: center;
         font-size: 24px;
     }
 
     .address-block h3,
     .contact-block h3 {
+        text-align: center;
         font-size: 14px;
     }
 
