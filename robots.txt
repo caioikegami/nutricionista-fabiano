@@ -1,0 +1,14 @@
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+
+# Crawl delay for bots
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://www.drfabiano.com.br/sitemap.xml
+Sitemap: https://www.drfabiano.com.br/sitemap-blog.xml
