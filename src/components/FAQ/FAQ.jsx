@@ -1,26 +1,8 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import './FAQ.css';
 
 const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);
-    const ScrollLink = ({ to, hash, children }) => {
-        const navigate = useNavigate();
-
-        const handleClick = (e) => {
-            e.preventDefault();
-            navigate(to);
-
-            setTimeout(() => {
-                const element = document.getElementById(hash);
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                }
-            }, 100);
-        };
-
-        return <a href="#" onClick={handleClick}>{children}</a>;
-    };
 
     const faqs = [
         {
@@ -89,7 +71,6 @@ const FAQ = () => {
                         Dúvidas comuns sobre nutrição funcional e nossos serviços
                     </p>
                 </div>
-
                 <div className="faq-grid">
                     {faqs.map((faq, index) => (
                         <div
@@ -106,14 +87,12 @@ const FAQ = () => {
                                     expand_more
                                 </span>
                             </button>
-
                             <div className="faq-answer">
                                 <p>{faq.answer}</p>
                             </div>
                         </div>
                     ))}
                 </div>
-
                 <div className="faq-cta">
                     <p>Ainda tem dúvidas?</p>
                     <a href="/contato" className="btn btn-primary">
