@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nutricionista-fabiano/static/css/main.cc3a5421.css",
-    "main.js": "/nutricionista-fabiano/static/js/main.ae655c82.js",
+    "main.css": "/nutricionista-fabiano/static/css/main.477265ef.css",
+    "main.js": "/nutricionista-fabiano/static/js/main.927b8867.js",
     "static/js/453.d6f25cca.chunk.js": "/nutricionista-fabiano/static/js/453.d6f25cca.chunk.js",
     "index.html": "/nutricionista-fabiano/index.html",
-    "main.cc3a5421.css.map": "/nutricionista-fabiano/static/css/main.cc3a5421.css.map",
-    "main.ae655c82.js.map": "/nutricionista-fabiano/static/js/main.ae655c82.js.map",
+    "main.477265ef.css.map": "/nutricionista-fabiano/static/css/main.477265ef.css.map",
+    "main.927b8867.js.map": "/nutricionista-fabiano/static/js/main.927b8867.js.map",
     "453.d6f25cca.chunk.js.map": "/nutricionista-fabiano/static/js/453.d6f25cca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc3a5421.css",
-    "static/js/main.ae655c82.js"
+    "static/css/main.477265ef.css",
+    "static/js/main.927b8867.js"
   ]
 }
