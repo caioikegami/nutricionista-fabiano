@@ -36,7 +36,7 @@ const About = () => {
                         <div className="hero-image-about">
                             <div className="image-frame">
                                 <img
-                                    src="/fabiano2.png"
+                                    src={`${process.env.PUBLIC_URL}/fabiano2.png`}
                                     alt="Dr. Fabiano Rodrigues - Retrato Profissional"
                                 />
                             </div>
@@ -108,7 +108,7 @@ const About = () => {
                         <div className="biography-images">
                             <div className="bio-image-main">
                                 <img
-                                    src="/dietacarne.jpg"
+                                    src={`${process.env.PUBLIC_URL}/dietacarne.jpg`}
                                     alt="Ingredientes funcionais em ambiente clínico"
                                 />
                             </div>
@@ -211,7 +211,7 @@ const About = () => {
                                 <div className="instagram-header">
                                     <div className="instagram-avatar">
                                         <img
-                                            src="/fabiano1.png"
+                                            src={`${process.env.PUBLIC_URL}/fabiano1.png`}
                                             alt="Dr. Fabiano Rodrigues"
                                         />
                                     </div>

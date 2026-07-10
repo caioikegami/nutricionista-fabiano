@@ -52,15 +52,15 @@ const Footer = () => {
                         <a href="https://wa.link/21a1uj" target="_blank" rel="noreferrer" className="text-body-md">+55 (19) 99657-5566 </a>
                         <div className="footer-social">
                             <a href="https://www.linkedin.com/in/nutrifabianorodrigues/" target="_blank" rel="noreferrer" className="social-link" aria-label="LinkedIn">
-                                <span className="social-icons"> <img src="/linkedin.png"
+                                <span className="social-icons"> <img src={`${process.env.PUBLIC_URL}/linkedin.png`}
                                     alt="LinkedIn"
                                     style={{ width: '20px', height: '20px' }} /></span>
                             </a>
                             <a href="https://www.instagram.com/fabianorodriguesnutri/" target="_blank" rel="noreferrer" className="social-link" aria-label="Instagram">
-                                <span className="social-icons"><img src="/instagram.png" alt="Instagram" style={{ width: '20px', height: '20px' }} /></span>
+                                <span className="social-icons"><img src={`${process.env.PUBLIC_URL}/instagram.png`} alt="Instagram" style={{ width: '20px', height: '20px' }} /></span>
                             </a>
                             <a href="https://www.facebook.com/people/Fabiano-Rodrigues-Nutri/61591259564072/" target="_blank" rel="noreferrer" className="social-link" aria-label="Facebook">
-                                <span className="social-icons"><img src="/facebook.png" alt="Facebook" style={{ width: '20px', height: '20px' }} /></span>
+                                <span className="social-icons"><img src={`${process.env.PUBLIC_URL}/facebook.png`} alt="Facebook" style={{ width: '20px', height: '20px' }} /></span>
                             </a>
                         </div>
                     </div>

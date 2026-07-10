@@ -418,7 +418,6 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--gutter);
     align-items: start;
-    pointer-events: none;
 }
 
 /* ================= VIDEO CONTAINER ================= */
@@ -596,7 +595,6 @@
 @media (max-width: 1024px) {
     .media-grid {
         grid-template-columns: 1fr;
-        pointer-events: none !important;
     }
 
     .instagram-container {
@@ -620,7 +618,6 @@
     .media-grid {
         grid-template-columns: 1fr;
         gap: var(--stack-md);
-        pointer-events: none !important;
     }
 
     .video-container {

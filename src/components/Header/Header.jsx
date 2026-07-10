@@ -48,7 +48,7 @@ const Header = () => {
       <nav className="nav-container container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
           <img 
-            src="/logovittacore.png" 
+            src={`${process.env.PUBLIC_URL}/logovittacore.png`}
             alt="VittaCore Logo"
             className="logo-image"
           />

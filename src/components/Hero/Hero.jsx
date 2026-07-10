@@ -31,7 +31,7 @@ const Hero = () => {
                         <div className="image-container">
                             <div className="image-overlay"></div>
                             <img
-                                src="/fabiano1.png"
+                                src={`${process.env.PUBLIC_URL}/fabiano1.png`}
                                 alt="Dr. Fabiano Rodrigues - Nutricionista Funcional"
                             />
                         </div>

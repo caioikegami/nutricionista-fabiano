@@ -9,7 +9,7 @@ const Testimonials = () => {
             id: 1,
             name: 'Marina Silva',
             role: 'Empresária',
-            image: '/testimonial-1.jpg',
+            image: `${process.env.PUBLIC_URL}/testimonial-1.jpg`,
             rating: 5,
             text: 'Transformei minha vida em 3 meses. A abordagem funcional do Dr. Fabiano identificou as causas raiz dos meus problemas de energia e digestão. Hoje tenho clareza mental, mais disposição e qualidade de vida.',
             result: 'Perdeu 12kg e normalizou glicemia'
@@ -18,7 +18,7 @@ const Testimonials = () => {
             id: 2,
             name: 'Carlos Borges',
             role: 'Professor de Música',
-            image: '/testimonial-2.jpg',
+            image: `${process.env.PUBLIC_URL}/testimonial-2.jpg`,
             rating: 5,
             text: 'Por meio de escolhas alimentares conscientes, embarquei em uma jornada de autodescoberta e cura. Adotei um cardápio antiinflamatório que se adequou às minhas preferências e necessidades alimentares, e os resultados foram incríveis!.',
             result: 'Carlos conseguiu deixar de depender dos medicamentos que o acompanhavam há anos'
@@ -27,7 +27,7 @@ const Testimonials = () => {
             id: 3,
             name: 'Juliana Costa',
             role: 'Atleta',
-            image: '/testimonial-3.jpg',
+            image: `${process.env.PUBLIC_URL}/testimonial-3.jpg`,
             rating: 5,
             text: 'Sou atleta amadora e procurava otimizar meu desempenho. A nutrição funcional me deu uma vantagem competitiva real. Meus tempos melhoraram significativamente.',
             result: 'Aumentou VO2 máximo e resistência muscular'
@@ -36,7 +36,7 @@ const Testimonials = () => {
             id: 4,
             name: 'Fernanda Oliveira',
             role: 'Mãe de Dois Filhos',
-            image: '/testimonial-4.jpg',
+            image: `${process.env.PUBLIC_URL}/testimonial-4.jpg`,
             rating: 5,
             text: 'Após gravidez, eu sentia cansaço extremo. O Dr. Fabiano entendeu que era desequilíbrio hormonal. Agora tenho energia para cuidar dos meus filhos e de mim mesma.',
             result: 'Recuperou energia e equilibrou hormônios'

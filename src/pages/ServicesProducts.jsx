@@ -49,7 +49,7 @@ const ServicesProducts = () => {
                         </div>
                         <div className="hero-image-services animate-slide-right">
                             <img
-                                src="/vidaplena.jpg"
+                                 src={`${process.env.PUBLIC_URL}/vidaplena.jpg`}
                                 alt="Vida plena"
                             />
                             <div className="image-overlay"></div>
@@ -102,7 +102,7 @@ const ServicesProducts = () => {
                             </div>
                             <div className="service-image">
                                 <img
-                                    src="/avaliacaometabolica.jpg"
+                                    src={`${process.env.PUBLIC_URL}/avaliacaometabolica.jpg`}
                                     alt="Avaliação Metabólica"
                                 />
                             </div>
@@ -163,7 +163,7 @@ const ServicesProducts = () => {
                         <div className="product-card bento-card">
                             <div className="product-image-container">
                                 <img
-                                    src="/ebook1.jpg"
+                                    src={`${process.env.PUBLIC_URL}/produto1.jpg`}
                                     alt="produto 1"
                                 />
                             </div>
@@ -185,7 +185,7 @@ const ServicesProducts = () => {
                         <div className="product-card bento-card">
                             <div className="product-image-container">
                                 <img
-                                    src="/produto2.jpg"
+                                    src={`${process.env.PUBLIC_URL}/produto2.jpg`}
                                     alt="produto 2"
                                 />
                             </div>
@@ -208,7 +208,7 @@ const ServicesProducts = () => {
                             <div className="product-image-container">
                                 <span className="out-of-stock-badge">NOVO</span>
                                 <img
-                                    src="/produto3.jpg"
+                                    src={`${process.env.PUBLIC_URL}/produto3.jpg`}
                                     alt="Produto 3"
                                 />
                             </div>

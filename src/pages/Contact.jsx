@@ -228,7 +228,7 @@ const Contact = () => {
                                         aria-label="LinkedIn"
                                         title="LinkedIn"
                                     >
-                                        <img src="/linkedin.png" alt="LinkedIn" />
+                                        <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt="LinkedIn" />
                                     </a>
                                     <a
                                         href="https://www.instagram.com/fabianorodriguesnutri/"
@@ -238,7 +238,7 @@ const Contact = () => {
                                         aria-label="Instagram"
                                         title="Instagram"
                                     >
-                                        <img src="/instagram.png" alt="Instagram" />
+                                        <img src={`${process.env.PUBLIC_URL}/instagram.png`} alt="Instagram" />
                                     </a>
                                     <a
                                         href="https://www.facebook.com/people/Fabiano-Rodrigues-Nutri/61591259564072/"
@@ -248,7 +248,7 @@ const Contact = () => {
                                         aria-label="Facebook"
                                         title="Facebook"
                                     >
-                                        <img src="/facebook.png" alt="Facebook" />
+                                        <img src={`${process.env.PUBLIC_URL}/facebook.png`} alt="Facebook" />
                                     </a>
                                 </div>
                             </div>
