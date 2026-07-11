@@ -59,7 +59,7 @@ const ServicesProducts = () => {
             </section>
 
             {/* ================= PROTOCOLS SECTION ================= */}
-            <section className="protocols-section">
+            <section id="servicos" className="protocols-section">
                 <div className="container">
                     <div className="protocols-header">
                         <div>
@@ -88,7 +88,7 @@ const ServicesProducts = () => {
                                     </li>
                                     <li>
                                         <span className="material-symbols-outlined">check_circle</span>
-                                        Bioimpedância InBody 770
+                                        Bioimpedância
                                     </li>
                                     <li>
                                         <span className="material-symbols-outlined">check_circle</span>

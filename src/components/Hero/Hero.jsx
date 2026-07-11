@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
@@ -21,9 +22,9 @@ const Hero = () => {
                             <a href="https://wa.link/21a1uj" target="_blank" rel="noreferrer" className="btn btn-primary">
                                 Agende sua Consulta
                             </a>
-                            <a href="/sobre" className="btn btn-outline">
+                            <Link to="/sobre" className="btn btn-outline">
                                 Conheça Fabiano Rodrigues
-                            </a>
+                            </Link>
                         </div>
                     </div>
 

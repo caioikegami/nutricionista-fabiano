@@ -31,6 +31,25 @@ const About = () => {
                                 Dedicado a transformar vidas através de uma abordagem clínica rigorosa
                                 e humanizada, focada na raiz dos desequilíbrios metabólicos.
                             </p>
+                            <div className="credentials-grid">
+                                <div className="credential-card">
+                                    <span className="material-symbols-outlined credential-icon">workspace_premium</span>
+                                    <span className="credential-text">Bacharelado em Nutrição Clínica</span>
+                                </div>
+
+                                <div className="credential-card">
+                                    <span className="material-symbols-outlined credential-icon">metabolism</span>
+                                    <span className="credential-text">Pós-graduação em Nutrição Funcional</span>
+                                </div>
+                                <div className="credential-card">
+                                    <span className="material-symbols-outlined credential-icon">oncology</span>
+                                    <span className="credential-text">Pós-graduação em Nutrição Oncológica</span>
+                                </div>
+                                <div className="credential-card">
+                                    <span className="material-symbols-outlined credential-icon">water_bottle</span>
+                                    <span className="credential-text">Pós-graduação em Nutrição Esportiva</span>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="hero-image-about">
@@ -87,20 +106,8 @@ const About = () => {
                                     acreditando que saúde e performance caminham juntas.
 
                                     <br></br>
-                                    <br></br>“Que seu alimento seja seu remédio e seu remédio seja seu alimento.
+                                    <br></br>“Que seu alimento seja seu remédio e seu remédio seja seu alimento.” - Hipócrates
                                 </p>
-                            </div>
-
-                            <div className="credentials-grid">
-                                <div className="credential-card">
-                                    <span className="material-symbols-outlined credential-icon">workspace_premium</span>
-                                    <span className="credential-text">Bacharelado em Nutrição Clínica</span>
-                                </div>
-
-                                <div className="credential-card">
-                                    <span className="material-symbols-outlined credential-icon">science</span>
-                                    <span className="credential-text">Pós-graduação em Nutrição Funcional</span>
-                                </div>
                             </div>
                         </div>
 
@@ -141,7 +148,7 @@ const About = () => {
                             </div>
                             <h3 className="text-headline-sm">Nutrigenética</h3>
                             <p className="text-body-md text-muted">
-                                Análise de como seus genes respondem aos nutrientes, permitindo uma dieta
+                                Análise a partir de exame genético de como seus genes respondem aos nutrientes, permitindo uma dieta
                                 personalizada ao seu código genético.
                             </p>
                         </div>

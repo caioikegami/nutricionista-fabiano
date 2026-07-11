@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Services.css';
 
 const Services = () => {
@@ -28,11 +29,11 @@ const Services = () => {
                         <div className="bento-content">
                             <span className="bento-badge">Mais procurado</span>
                             <h3 className="text-headline-md">Avaliação metabólica</h3>
-                            <p className="text-body-lg">Nosso protocolo mais completo com análise genética e exames laboratoriais avançados.</p>
-                            <a href="/servicos-produtos" className="bento-link">
+                            <p className="text-body-lg">Nosso protocolo mais completo com análise de exames de genética e de exames laboratoriais avançados.</p>
+                            <Link to="/servicos-produtos#servicos" className="bento-link">
                                 Saiba Mais
                                 <span className="material-icons">arrow_forward</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -52,7 +53,7 @@ const Services = () => {
                     {/* Small Card 1 */}
                     <div className="bento-item bento-small bento-primary bento-card">
                         <span className="material-icons">biotech</span>
-                        <h4 className="text-headline-sm">Bioimpedância Avançada</h4>
+                        <h4 className="text-headline-sm">Bioimpedância</h4>
                         <p className="text-body-md">Análise precisa da composição corporal.</p>
                     </div>
 
@@ -60,7 +61,7 @@ const Services = () => {
                     <div className="bento-item bento-small bento-secondary bento-card">
                         <span className="material-icons">medication</span>
                         <h4 className="text-headline-sm">Suplementação</h4>
-                        <p className="text-body-md">Fórmulas personalizadas de alta absorção.</p>
+                        <p className="text-body-md">Fórmulas personalizadas de acordo com seu protocolo.</p>
                     </div>
                 </div>
             </div>

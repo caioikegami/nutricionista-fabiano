@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './FAQ.css';
 
 const FAQ = () => {
@@ -95,9 +96,9 @@ const FAQ = () => {
                 </div>
                 <div className="faq-cta">
                     <p>Ainda tem dúvidas?</p>
-                    <a href="/contato" className="btn btn-primary">
+                    <Link to="/contato" className="btn btn-primary">
                         Entre em Contato
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

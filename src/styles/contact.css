@@ -4,8 +4,8 @@
 
 /* ================= HERO SECTION ================= */
 .contact-hero {
-    margin-top: 80px;
-    padding: var(--stack-lg) 0;
+    margin-top: 60px;
+    padding: 40px 0px 0px 0px;
     background: linear-gradient(135deg, rgba(238, 255, 220, 1) 0%, rgba(225, 248, 204, 0.8) 100%);
 }
 
@@ -41,7 +41,7 @@
 
 /* ================= CONTACT CONTENT ================= */
 .contact-content {
-    padding: var(--stack-lg) 0;
+    padding: 20px 0;
     background-color: var(--background);
 }
 

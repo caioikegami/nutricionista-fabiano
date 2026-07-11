@@ -211,7 +211,7 @@ const Contact = () => {
                                         </div>
                                         <div className="channel-info">
                                             <span className="channel-label">E-mail</span>
-                                            <span className="channel-value">fabrosnutricao@gmail.com</span>
+                                            <span className="channel-value">fabros@gmail.com</span>
                                         </div>
                                     </div>
                                 </div>

@@ -48,7 +48,7 @@ function LocationMap() {
                             <span className="material-symbols-outlined">mail</span>
                             <div>
                                 <h3>E-mail</h3>
-                                <a href="mailto:fabrosnutricao@gmail.com">fabrosnutricao@gmail.com</a>
+                                <a href="mailto:fabros@gmail.com">fabros@gmail.com</a>
                             </div>
                         </div>
 

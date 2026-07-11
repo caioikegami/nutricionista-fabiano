@@ -26,7 +26,7 @@ const Footer = () => {
                                 <Link to="/sobre">Sobre</Link>
                             </li>
                             <li>
-                                <Link to="/servicos-produtos">Serviços</Link>
+                                <Link to="/servicos-produtos#servicos">Serviços</Link>
                             </li>
                             <li>
                                 <Link to="/servicos-produtos#produtos">Produtos</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
 
                     <div className="footer-section">
                         <h5 className="footer-title">Contato</h5>
-                        <a href="mailto:fabrosnutricao@gmail.com" className="text-body-md">fabrosnutricao@gmail.com</a>
+                        <a href="mailto:fabros@gmail.com" className="text-body-md">fabros@gmail.com</a>
                         <a href="https://wa.link/21a1uj" target="_blank" rel="noreferrer" className="text-body-md">+55 (19) 99657-5566 </a>
                         <div className="footer-social">
                             <a href="https://www.linkedin.com/in/nutrifabianorodrigues/" target="_blank" rel="noreferrer" className="social-link" aria-label="LinkedIn">
