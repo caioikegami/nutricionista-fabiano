@@ -9,53 +9,90 @@ const FAQ = () => {
         {
             id: 1,
             question: 'O que é a Nutrição Funcional?',
-            answer: 'É uma área da ciência da nutrição que foca no funcionamento integrado do corpo. Em vez de padronizar dietas, ela busca compreender como os alimentos interagem com a genética, o metabolismo e o estilo de vida de cada pessoa para promover a saúde e prevenir doenças.'
+            answer: 'A Nutrição Funcional é uma abordagem que investiga como o seu corpo está funcionando — não apenas o que você come. Em vez de prescrever uma dieta padrão, ela busca identificar os mecanismos fisiológicos por trás dos seus sintomas: por que você sente fadiga, por que não consegue emagrecer, por que sua glicemia está subindo. A partir dessa investigação, construímos um protocolo que corrige a causa do desequilíbrio, não apenas controla o sintoma.'
         },
         {
             id: 2,
             question: 'Qual é a diferença entre nutrição convencional e funcional?',
-            answer: 'Enquanto a nutrição convencional atua muitas vezes com foco na perda de peso ou na restrição calórica, a nutrição funcional prioriza a qualidade dos alimentos, a absorção de nutrientes pelas células, a saúde intestinal e a correção de deficiências ou excessos.'
+            answer: `Nutrição convencional trabalha com uma pergunta: "quantas calorias você precisa?" A Nutrição Funcional trabalha com uma pergunta diferente: "por que seu metabolismo não está funcionando como deveria?"
+
+            A diferença prática: a convencional prescreve restrição calórica. A funcional investiga resistência à insulina, inflamação, desequilíbrios hormonais e disbiose intestinal — e corrige esses mecanismos. Além disso, interpretamos seus exames laboratoriais sob uma lente funcional, identificando desequilíbrios que os valores de referência "normais" escondem.`
         },
         {
             id: 3,
-            question: 'O que são "alimentos funcionais"?',
-            answer: 'São alimentos ou ingredientes que, além de nutrir, contêm compostos bioativos que oferecem benefícios fisiológicos, metabólicos e de proteção à saúde (como ação antioxidante ou anti-inflamatória), ajudando na prevenção de doenças crônicas.'
+            question: 'Preciso eliminar calorias e focar apenas no peso?',
+            answer: `Não. A contagem de calorias ignora o que realmente importa: como seu metabolismo responde ao que você come.
+
+                    Duas pessoas podem comer exatamente as mesmas calorias e ter respostas metabólicas opostas. Se você tem resistência à insulina, um mesmo alimento que seria inofensivo para outra pessoa pode gerar picos glicêmicos, armazenamento de gordura e inflamação em você.
+                    O foco é corrigir o mecanismo — sensibilidade à insulina, eixo inflamatório, saúde intestinal. Quando o metabolismo funciona, a composição corporal se ajusta como consequência, não como meta.`
         },
         {
             id: 4,
-            question: 'Preciso eliminar calorias e focar apenas no peso?',
-            answer: 'Não. O foco central não é a contagem de calorias, mas a densidade nutricional. O objetivo é nutrir o organismo adequadamente para restabelecer o equilíbrio, o que naturalmente auxilia no controle de peso, na disposição e no bem-estar.'
+            question: 'Para quem é indicada a nutrição funcional?',
+            answer: `É indicada principalmente para adultos que têm sintomas ou exames alterados, mas não encontraram respostas na abordagem convencional.
+                    Procuramos especialmente pessoas com:
+
+                - Resistência à insulina ou glicemia elevada
+                - Dificuldade de emagrecer que não responde a dieta
+                - Fadiga persistente, mesmo dormindo bem
+                - Síndrome metabólica ou esteatose hepática
+                - Inflamação crônica (PCR elevado, dores articulares)
+                - Dislipidemias (triglicérides altos, HDL baixo)
+                - Disbioses e desconfortos intestinais
+
+                    Também atendemos atletas e praticantes de atividade física que querem otimizar performance e recuperação através da Nutrição Esportiva Funcional.`
         },
         {
             id: 5,
-            question: 'Para quem é indicada a nutrição funcional?',
-            answer: 'É indicada para qualquer pessoa que busque melhoria na qualidade de vida, prevenção de doenças e tratamento de condições crônicas. É muito procurada para lidar com desconfortos gastrointestinais, fadiga e falta de energia, desequilíbrios hormonais, doenças autoimunes, diabetes e obesidade.'
+            question: 'Como funciona a consulta com um nutricionista funcional?',
+            answer: `A consulta é dividida em etapas:
+                    1. Anamnese metabólica: análise detalhada da sua dieta, sono, estresse, atividade física, histórico familiar, medicações e sintomas físicos (queda de cabelo, dores de cabeça, inchaço, fadiga, etc.).
+                    2. Interpretação de exames: análise dos seus exames laboratoriais sob a ótica funcional — identificando desequilíbrios nos eixos glicêmico, inflamatório, hormonal, intestinal e nutricional. Se necessário, solicitamos exames complementares.
+                    3. Construção do protocolo: plano alimentar individualizado, estratégia de suplementação direcionada e ajustes de estilo de vida — tudo baseado no que a investigação revelou.
+                    4. Acompanhamento: consultas periódicas para monitorar sintomas, reavaliar marcadores laboratoriais e ajustar o protocolo conforme a resposta metabólica.`
         },
         {
             id: 6,
-            question: 'Como funciona a consulta com um nutricionista funcional?',
-            answer: 'A consulta é bastante detalhada. O profissional fará um rastreamento metabólico, analisando a dieta, a qualidade do sono, os níveis de estresse, a prática de atividades físicas, o histórico familiar e os sinais e sintomas físicos (como queda de cabelo, dores de cabeça, inchaços, etc.)'
+            question: 'Quanto tempo leva para ver resultados?',
+            answer: `Depende do eixo metabólico afetado e da adesão ao protocolo, mas em geral:
+
+                - Energia e disposição: melhorias em 2 a 4 semanas
+                - Glicemia, insulina e triglicérides: alterações significativas em 8 a 12 semanas
+                - Composição corporal: mudanças consistentes a partir de 12 semanas
+                - Marcadores inflamatórios e hormonais: 3 a 6 meses
+
+                    Os resultados variam conforme o individual bioquímico de cada pessoa. O acompanhamento é contínuo e o protocolo é ajustado conforme a resposta — porque bioquímica é dinâmica.`
         },
         {
             id: 7,
-            question: 'Quanto tempo leva para ver resultados?',
-            answer: 'Os resultados variam conforme o individual bioquímico de cada pessoa. Geralmente, você começa a sentir melhorias em energia e disposição entre 2 a 4 semanas. Para resultados mais significativos em composição corporal e saúde metabólica, recomenda-se acompanhamento de 8 a 12 semanas.'
+            question: 'Preciso fazer exames para começar?',
+            answer: `Sim, exames são parte fundamental do método.
+
+                        Além do hemograma e perfil lipídico básicos, frequentemente solicitamos marcadores que a avaliação convencional costuma ignorar: insulina basal, HOMA-IR, PCR ultrassensível, ferritina, homocisteína, vitamina D, painel hormonal completo e, quando indicado, testes genéticos.
+
+                        Se você já tem exames recentes, traga na primeira consulta. Se não, solicitamos o painel adequado ao seu quadro. A escolha dos marcadores depende dos seus sintomas e objetivos — não pedimos o mesmo painel para todo mundo.`
         },
         {
             id: 8,
-            question: 'A nutrição funcional funciona para crianças?',
-            answer: 'Sim, totalmente! Muitas crianças enfrentam problemas como alergias, problemas digestivos e falta de concentração que podem ser abordados através da nutrição funcional. A abordagem é sempre adaptada à idade e necessidades específicas da criança.'
+            question: 'Como é o acompanhamento após a consulta inicial?',
+            answer: `O acompanhamento é contínuo porque bioquímica é dinâmica — o que funciona hoje pode precisar de ajuste em 3 meses. Modalidades disponíveis: Consultas quinzenais ou mensais (presencial em Indaiatuba/SP ou online), acompanhamento via app com troca de mensagens, check-ins periódicos com reavaliação de exames. Em cada retorno, monitoramos sintomas, marcadores laboratoriais, composição corporal e qualidade de vida. O protocolo é ajustado conforme a resposta metabólica — não é um plano estático que você recebe uma vez e segue para sempre.`
         },
         {
             id: 9,
-            question: 'Preciso fazer exames para começar?',
-            answer: 'É altamente recomendado! Exames laboratoriais complementam o diagnóstico e ajudam a identificar deficiências nutricionais, desequilíbrios hormonais e inflamação sistêmica. Isso torna o protocolo mais preciso e efetivo.'
+            question: 'O que é interpretação funcional de exames?',
+            answer: `Os valores de referência dos exames laboratoriais são baseados na média populacional — e essa média inclui pessoas com problemas de saúde. Um valor "dentro da normalidade" pode já indicar um desequilíbrio em estágio inicial.  Interpretamos seus exames sob faixas mais restritas e relacionamos marcadores entre si, identificando padrões que a avaliação convencional ignora.`
         },
         {
             id: 10,
-            question: 'Como é o acompanhamento após a consulta inicial?',
-            answer: 'Oferecemos diferentes modalidades: consultas quinzenais ou mensais, acompanhamento via app com troca de mensagens, e check-ins periódicos. Você escolhe a modalidade que melhor se encaixa no seu estilo de vida.'
-        }
+            question: 'Atende online ou presencialmente?',
+            answer: `Atendimento presencial em Indaiatuba/SP e online por videochamada para pacientes em qualquer localidade. O protocolo de exames e acompanhamento funciona igualmente nas duas modalidades.`
+        },
+            {
+            id: 11,
+            question: 'O Fabiano também atende atletas?',
+            answer: `Sim. Além da investigação metabólica clínica, atuo com Nutrição Esportiva Funcional — periodização nutricional, composição corporal por bioimpedância, suplementação direcionada e otimização de recuperação. Para atletas e praticantes de atividade física de todos os níveis que querem extrair o máximo do treinamento.`
+        },
+
     ];
 
     const toggleFAQ = (index) => {

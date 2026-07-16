@@ -312,6 +312,19 @@
     animation: slideInRight 0.8s ease-out;
 }
 
+/* Video Button */
+.btn-video {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: var(--stack-md);
+    margin-bottom: var(--stack-md);
+}
+
+.btn-video .material-symbols-outlined {
+    font-size: 20px;
+}
+
 /* ================= RESPONSIVIDADE ================= */
 @media (max-width: 1024px) {
     .testimonials-header h2 {

@@ -9,11 +9,9 @@ const Services = () => {
                 <div className="services-header">
                     <div>
                         <span className="services-badge">Nossos Serviços</span>
-                        <h2 className="text-headline-lg">Soluções Personalizadas para sua Jornada</h2>
+                        <h2 className="text-headline-lg">Como podemos ajudar você:</h2>
                     </div>
-                    <a href="/servicos-produtos" className="view-all">
-                        Ver todos os serviços
-                    </a>
+                    <Link to="/servicos-produtos#servicos">Ver todos os Serviços</Link>
                 </div>
 
                 <div className="bento-grid">
@@ -28,8 +26,8 @@ const Services = () => {
                         </div>
                         <div className="bento-content">
                             <span className="bento-badge">Mais procurado</span>
-                            <h3 className="text-headline-md">Avaliação metabólica</h3>
-                            <p className="text-body-lg">Nosso protocolo mais completo com análise de exames de genética e de exames laboratoriais avançados.</p>
+                            <h3 className="text-headline-md">Investigação Metabólica Completa</h3>
+                            <p className="text-body-lg">O protocolo mais completo. Análise detalhada do seu histórico clínico, sintomas, hábitos de vida e exames laboratoriais interpretados sob a ótica funcional. </p>
                             <Link to="/servicos-produtos#servicos" className="bento-link">
                                 Saiba Mais
                                 <span className="material-icons">arrow_forward</span>
@@ -37,31 +35,32 @@ const Services = () => {
                         </div>
                     </div>
 
-                    {/* Medium Card 1 */}
+                    {/* Medium Card 2 */}
                     <div className="bento-item bento-medium bento-card">
                         <div className="bento-icon">
                             <span className="material-icons">nutrition</span>
                         </div>
-                        <h3 className="text-headline-sm">Plano Alimentar Inteligente</h3>
-                        <p className="text-body-md text-muted">Dietas adaptadas à sua rotina, preferências e necessidades metabólicas específicas.</p>
+                        <h3 className="text-headline-sm">Reorganização Metabólica</h3>
+                        <p className="text-body-md text-muted">Para quem tem resistência à insulina, síndrome metabólica, esteatose hepática, fadiga persistente ou dificuldade de emagrecer. Atuamos na correção dos mecanismos fisiológicos</p>
                         <div className="bento-tags">
-                            <span className="tag">Individualizado</span>
-                            <span className="tag">Sustentável</span>
+                            <span className="tag">Plano Alimentar metabólico</span>
+                            <span className="tag">Suplementação direcionada</span>
+                            <span className="tag">Monitoramento laboratorial contínuo</span>
                         </div>
                     </div>
 
-                    {/* Small Card 1 */}
+                    {/* Small Card 3 */}
                     <div className="bento-item bento-small bento-primary bento-card">
-                        <span className="material-icons">biotech</span>
-                        <h4 className="text-headline-sm">Bioimpedância</h4>
-                        <p className="text-body-md">Análise precisa da composição corporal.</p>
+                        <span className="material-icons">water_bottle</span>
+                        <h4 className="text-headline-sm">Nutrição Esportiva Funcional</h4>
+                        <p className="text-body-md"> Para atletas e praticantes de atividade física que querem extrair o máximo do treinamento.</p>
                     </div>
 
-                    {/* Small Card 2 */}
+                    {/* Small Card 4 */}
                     <div className="bento-item bento-small bento-secondary bento-card">
                         <span className="material-icons">medication</span>
-                        <h4 className="text-headline-sm">Suplementação</h4>
-                        <p className="text-body-md">Fórmulas personalizadas de acordo com seu protocolo.</p>
+                        <h4 className="text-headline-sm">Suplementação Direcionada</h4>
+                        <p className="text-body-md">Fórmulas personalizadas baseadas em deficiências identificadas em exames.</p>
                     </div>
                 </div>
             </div>

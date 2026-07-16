@@ -5,18 +5,18 @@ const Philosophy = () => {
     const pillars = [
         {
             icon: 'vital_signs',
-            title: 'Ciência moderna',
-            description: 'Ajuste de micronutrientes para otimizar suas funções celulares e metabólicas.'
+            title: 'Interpretação Funcional de Exames',
+            description: 'Interpretamos seus exames sob uma lente funcional, identificando desequilíbrios nos eixos glicêmico, inflamatório, hormonal e intestinal, frequentemente anos antes de se tornarem doenças diagnosticáveis.'
         },
         {
             icon: 'ecg_heart',
-            title: 'Ancestralidade alimentar',
-            description: 'O intestino como centro da imunidade e produção de neurotransmissores.'
+            title: 'Nutrição Evolutiva',
+            description: 'Nossos genes foram moldados por milhões de anos de evolução. A alimentação moderna — rica em ultraprocessados, açúcar e óleos vegetais refinados — colide com nossa biologia. Priorizamos alimentos minimamente processados, densidade nutricional e adequação proteica, respeitando o que seu organismo foi projetado para processar.'
         },
         {
             icon: 'psychiatry',
-            title: 'Estratégias personalizadas',
-            description: 'Protocolos que consideram a conexão entre saúde física e clareza mental.'
+            title: 'Individualidade Bioquímica',
+            description: 'Não existem protocolos genéricos. Cada pessoa responde de forma única aos alimentos. Seu plano é construído a partir do seu histórico, seus exames, seus sintomas e seus objetivos — não a partir de um modelo padronizado.'
         }
     ];
 
@@ -24,10 +24,10 @@ const Philosophy = () => {
         <section id="sobre" className="philosophy">
             <div className="container">
                 <div className="philosophy-header">
-                    <h2 className="text-headline-lg">Abordagem ancestral, cetogênica e carnívora</h2>
+                    <h2 className="text-headline-lg">Nossa Abordagem: Causa Raiz, Não Sintoma</h2>
                     <div className="divider"></div>
                     <p className="text-body-lg philosophy-subtitle">
-                        Desenvolvemos protocolos que promovem emagrecimento inteligente, equilíbrio metabólico e vitalidade sustentável.
+                        Não prescrevemos dietas padrão. Identificamos os mecanismos fisiológicos que estão gerando seus sintomas e os corrigimos na origem.
                     </p>
                 </div>
 

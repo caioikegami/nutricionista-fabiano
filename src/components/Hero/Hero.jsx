@@ -11,19 +11,19 @@ const Hero = () => {
                         <span className="hero-badge">Especialista em Nutrição Funcional</span>
 
                         <h1 className="text-headline-lg-mobile md-text-display-lg">
-                            Transforme sua Saúde com a <span className="text-highlight">Nutrição Funcional</span>
+                            Seus exames estão normais mas<span className="text-highlight"> você não se sente bem?</span>
                         </h1>
 
                         <p className="text-body-lg hero-description">
-                            Descubra como o equilíbrio bioquímico e a alimentação personalizada podem revitalizar sua energia e promover longevidade.
+                            A Nutrição Funcional vai além dos valores de referência. Investigamos as causas metabólicas por trás da fadiga, do ganho de peso e da inflamação — e corrigimos na raiz, não no sintoma.
                         </p>
 
                         <div className="hero-buttons">
                             <a href="https://wa.link/21a1uj" target="_blank" rel="noreferrer" className="btn btn-primary">
-                                Agende sua Consulta
+                                Agendar Investigação Metabólica
                             </a>
                             <Link to="/sobre" className="btn btn-outline">
-                                Conheça Fabiano Rodrigues
+                                Conheça o Método
                             </Link>
                         </div>
                     </div>

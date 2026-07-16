@@ -40,7 +40,7 @@ const Footer = () => {
                     <div className="footer-section">
                         <h5 className="footer-title">Legal</h5>
                         <ul className="footer-links">
-                            <li><a href="/privacidade">Privacidade</a></li>
+                            <li><Link to="/privacidade">Política de Privacidade</Link></li>
                             <li><Link to="/#faq">FAQ</Link></li>
                             <li><Link to="/contato#localizacao">Localização</Link></li>
                         </ul>

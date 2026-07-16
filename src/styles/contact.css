@@ -640,15 +640,18 @@
     }
 
     .card-title {
+        text-align: center;
         font-size: 18px;
         margin-bottom: var(--stack-sm);
     }
 
     .contact-channels {
+        align-items: center;
         gap: var(--unit);
     }
 
     .contact-channel {
+        align-items: center;
         padding: 8px;
         margin: -8px;
     }
@@ -671,10 +674,12 @@
     }
 
     .social-links {
+        align-items: center;
         gap: 8px;
     }
 
     .social-link {
+        align-items: center;
         width: 36px;
         height: 36px;
     }

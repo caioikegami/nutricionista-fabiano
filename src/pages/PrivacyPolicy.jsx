@@ -223,7 +223,7 @@ const PrivacyPolicy = () => {
                         <div className="contact-info">
                             <div className="contact-item">
                                 <h3>E-mail</h3>
-                                <a href="mailto:fabrosnutricao@gmail.com">fabrosnutricao@gmail.com</a>
+                                <a href="mailto:fabros@gmail.com">fabros@gmail.com</a>
                             </div>
                             <div className="contact-item">
                                 <h3>Telefone</h3>
@@ -232,9 +232,9 @@ const PrivacyPolicy = () => {
                             <div className="contact-item">
                                 <h3>Endereço</h3>
                                 <p>
-                                    Av. Coronel Antônio Estanislau do Amaral, 277<br />
+                                    Avenida Presidente Kennedy, 1006 - Sala 08<br />
                                     Indaiatuba - SP<br />
-                                    CEP: 13340-480
+                                    CEP: 13334-170
                                 </p>
                             </div>
                         </div>

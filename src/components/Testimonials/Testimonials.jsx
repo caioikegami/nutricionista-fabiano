@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import './Testimonials.css';
-
 const Testimonials = () => {
     const [activeTestimonial, setActiveTestimonial] = useState(0);
-
     const testimonials = [
         {
             id: 1,
@@ -25,38 +23,34 @@ const Testimonials = () => {
         },
         {
             id: 3,
-            name: 'Juliana Costa',
-            role: 'Atleta',
+            name: 'Leonardo Santos',
+            role: 'Engenheiro',
             image: `${process.env.PUBLIC_URL}/testimonial-3.jpg`,
             rating: 5,
-            text: 'Sou atleta amadora e procurava otimizar meu desempenho. A nutrição funcional me deu uma vantagem competitiva real. Meus tempos melhoraram significativamente.',
-            result: 'Aumentou VO2 máximo e resistência muscular'
+            text: 'Sou atleta de Kung Fu e procurava otimizar meu desempenho. A nutrição funcional me deu uma vantagem competitiva real. Meus treinos melhoraram significativamente.',
+            result: 'Eliminou 12Kg e fora a saúde que está muito melhor'
         },
         {
             id: 4,
-            name: 'Fernanda Oliveira',
-            role: 'Mãe de Dois Filhos',
+            name: 'Cláudio Rodrigues',
+            role: 'Advogado',
             image: `${process.env.PUBLIC_URL}/testimonial-4.jpg`,
             rating: 5,
-            text: 'Após gravidez, eu sentia cansaço extremo. O Dr. Fabiano entendeu que era desequilíbrio hormonal. Agora tenho energia para cuidar dos meus filhos e de mim mesma.',
-            result: 'Recuperou energia e equilibrou hormônios'
+            text: 'Sentia muito cansaço e sonolência no dia-a-dia, não percebi como minha alimentação estava me afetando, graças ao Dr. Fabiano consegui mudar minha alimentação e aumentar minha disposição.',
+            result: 'Recuperou energia e a disposição no trabalho'
         }
     ];
-
     const handlePrevious = () => {
         setActiveTestimonial((prev) =>
             prev === 0 ? testimonials.length - 1 : prev - 1
         );
     };
-
     const handleNext = () => {
         setActiveTestimonial((prev) =>
             prev === testimonials.length - 1 ? 0 : prev + 1
         );
     };
-
     const currentTestimonial = testimonials[activeTestimonial];
-
     return (
         <section className="testimonials-section">
             <div className="container">
@@ -68,7 +62,6 @@ const Testimonials = () => {
                         equilíbrio e vitalidade através da nutrição funcional.
                     </p>
                 </div>
-
                 <div className="testimonials-container">
                     {/* Main Testimonial Card */}
                     <div className="testimonial-main animate-slide-left">
@@ -91,7 +84,6 @@ const Testimonials = () => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="testimonial-content">
                             <p className="testimonial-text">"{currentTestimonial.text}"</p>
                             <div className="testimonial-result">
@@ -101,7 +93,6 @@ const Testimonials = () => {
                                 <span className="result-text">{currentTestimonial.result}</span>
                             </div>
                         </div>
-
                         <div className="testimonial-controls">
                             <button
                                 className="control-btn"
@@ -129,7 +120,6 @@ const Testimonials = () => {
                             </button>
                         </div>
                     </div>
-
                     {/* Side Thumbnails */}
                     <div className="testimonials-thumbnails animate-slide-right">
                         {testimonials.map((testimonial, index) => (
@@ -157,5 +147,4 @@ const Testimonials = () => {
         </section>
     );
 };
-
 export default Testimonials;

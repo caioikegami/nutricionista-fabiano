@@ -167,7 +167,7 @@
 }
 
 .bento-medium p {
-    margin-bottom: var(--stack-md);
+    margin-bottom: 5px;
 }
 
 .bento-tags {
