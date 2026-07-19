@@ -1,0 +1,88 @@
+.philosophy {
+    background-color: var(--surface-container-lowest);
+    border-top: 1px solid var(--outline-variant);
+    border-bottom: 1px solid var(--outline-variant);
+    padding: var(--stack-lg) 0;
+}
+
+.philosophy-header {
+    text-align: center;
+    margin-bottom: var(--stack-lg);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.philosophy-header h2 {
+    font-size: 48px;
+    color: var(--primary);
+    margin-bottom: var(--stack-sm);
+}
+
+.divider {
+    width: 64px;
+    height: 4px;
+    background-color: var(--secondary);
+    margin: var(--stack-sm) auto var(--stack-md);
+    border-radius: 2px;
+}
+
+.philosophy-subtitle {
+    color: var(--on-surface-variant);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--gutter);
+}
+
+.pillar-card {
+    background-color: var(--surface);
+    border: 1px solid var(--outline-variant);
+    border-radius: 12px;
+    padding: var(--stack-md);
+    text-align: center;
+}
+
+.pillar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background-color: var(--tertiary-fixed);
+    border-radius: 12px;
+    margin: 0 auto var(--stack-sm);
+}
+
+.pillar-icon .material-icons {
+    font-size: 32px;
+    color: var(--secondary);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pillar-card h3 {
+    color: var(--primary);
+    margin-bottom: var(--stack-sm);
+}
+
+.pillar-card p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .philosophy-header h2 {
+        font-size: 32px;
+    }
+
+    .pillars-grid {
+        grid-template-columns: 1fr;
+    }
+}

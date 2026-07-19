@@ -1,0 +1,191 @@
+.footer {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    padding: var(--stack-lg) 0;
+    margin-top: var(--stack-lg);
+}
+.footer-content {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    gap: var(--gutter);
+    margin-bottom: var(--stack-lg);
+}
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: var(--stack-sm);
+}
+.footer-logo {
+    font-family: var(--font-display-lg);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--on-primary);
+}
+.footer-brand p {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    max-width: 250px;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--stack-sm);
+}
+.footer-title {
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary-fixed);
+    margin-bottom: var(--unit);
+}
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+.footer-links a:hover {
+    color: var(--primary-fixed);
+}
+.footer-section a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-section a:hover {
+    color: var(--secondary-fixed);
+    text-decoration: underline;
+}
+.footer-section p a {
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+}
+.footer-section p a:hover {
+    color: var(--secondary-fixed);
+}
+.footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: var(--stack-sm);
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    color: var(--on-secundary);
+    transition: var(--transition-smooth);
+}
+.social-link:hover {
+    border-color: var(--secondary-fixed);
+    color: var(--secondary-fixed);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-link .material-icons {
+    font-size: 20px;
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(254, 223, 158, 0.2);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    padding: 0;
+    overflow: hidden;
+}
+.social-icon:hover {
+    background-color: rgba(254, 223, 158, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.social-icon img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+.social-icon:hover img {
+    filter: brightness(0.8);
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--stack-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--stack-sm);
+}
+.footer-copyright,
+.footer-crn {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+}
+
+/* ================= RESPONSIVIDADE ================= */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--stack-md);
+        text-align: center;
+    }
+    
+    .footer-brand {
+        align-items: center;
+    }
+    
+    .footer-logo {
+        text-align: center;
+    }
+    
+    .footer-brand p {
+        text-align: center;
+    }
+    
+    .footer p {
+        text-align: center;
+    }
+    
+    .text-body-md p {
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .social-icon {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--unit);
+    }
+    
+    .footer-copyright,
+    .footer-crn {
+        text-align: center;
+    }
+}

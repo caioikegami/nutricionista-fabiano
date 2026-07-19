@@ -1,0 +1,93 @@
+:root {
+    /* Core Colors - Material Design 3 */
+    --primary: #03312d;
+    --on-primary: #ffffff;
+    --primary-container: #1f4843;
+    --on-primary-container: #8cb6af;
+    --primary-fixed: #c0ebe4;
+    --primary-fixed-dim: #a4cfc8;
+
+    --secondary: #715c27;
+    --on-secondary: #ffffff;
+    --secondary-container: #fbdc9b;
+    --on-secondary-container: #76602b;
+    --secondary-fixed: #fedf9e;
+    --secondary-fixed-dim: #e0c384;
+
+    --tertiary: #0e2b52;
+    --on-tertiary: #ffffff;
+    --tertiary-container: #28426a;
+    --on-tertiary-container: #96afdd;
+    --tertiary-fixed: #d6e3ff;
+    --tertiary-fixed-dim: #aec7f7;
+
+    --error: #ba1a1a;
+    --on-error: #ffffff;
+    --error-container: #ffdad6;
+    --on-error-container: #93000a;
+
+    /* Surface Colors */
+    --surface: #eeffdc;
+    --surface-dim: #cbe1b6;
+    --surface-bright: #eeffdc;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #e4fbce;
+    --surface-container: #dff5c9;
+    --surface-container-high: #d9efc4;
+    --surface-container-highest: #d3eabe;
+
+    --surface-tint: #3d6660;
+    --surface-variant: #d3eabe;
+    --on-surface: #0f2005;
+    --on-surface-variant: #414847;
+
+    /* Other */
+    --outline: #717977;
+    --outline-variant: #c0c8c6;
+    --inverse-surface: #243517;
+    --inverse-on-surface: #e1f8cc;
+    --inverse-primary: #a4cfc8;
+    --background: #eeffdc;
+    --on-background: #0f2005;
+
+    /* Typography */
+    --font-display-lg: 'Playfair Display', serif;
+    --font-body: 'Montserrat', sans-serif;
+
+    /* Spacing */
+    --unit: 8px;
+    --stack-sm: 16px;
+    --stack-md: 32px;
+    --stack-lg: 80px;
+    --gutter: 24px;
+    --margin-mobile: 20px;
+    --margin-desktop: 64px;
+    --container-max: 1280px;
+
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0px 10px 20px rgba(31, 72, 67, 0.15);
+    --shadow-xl: 0px 10px 30px rgba(191, 164, 104, 0.3);
+
+    /* Transitions */
+    --transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    --transition-smooth: all 0.3s ease-in-out;
+
+    /* Z-index */
+    --z-header: 50;
+    --z-modal: 100;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --transition: all 0.01ms linear;
+        --transition-smooth: all 0.01ms linear;
+    }
+}
