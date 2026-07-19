@@ -24,20 +24,20 @@ const Testimonials = () => {
         {
             id: 3,
             name: 'Leonardo Santos',
-            role: 'Engenheiro',
+            role: 'Engenheiro de Software',
             image: `${process.env.PUBLIC_URL}/testimonial-3.jpg`,
             rating: 5,
-            text: 'Sou atleta de Kung Fu e procurava otimizar meu desempenho. A nutrição funcional me deu uma vantagem competitiva real. Meus treinos melhoraram significativamente.',
-            result: 'Eliminou 12Kg e fora a saúde que está muito melhor'
+            text: `Quando vi que cheguei em 100kg, tive certeza que precisaria de ajuda pra não perder de vez o controle do meu peso. O Fabiano me ajudou a montar uma dieta que me ajudou a sair dos 3 dígitos sem ter aquela impressão de que estava passando fome e que fazia sentido pro meu dia a dia. Saí dos 106kg e hj estou com 93kg e continuo emagrecendo, incluindo exercícios na rotina e melhorando cada vez mais minha qualidade de vida.`,
+            result: 'Eliminou +12Kg e fora a saúde que está muito melhor'
         },
         {
             id: 4,
             name: 'Cláudio Rodrigues',
-            role: 'Advogado',
+            role: 'Professor ensino Fundamental',
             image: `${process.env.PUBLIC_URL}/testimonial-4.jpg`,
             rating: 5,
-            text: 'Sentia muito cansaço e sonolência no dia-a-dia, não percebi como minha alimentação estava me afetando, graças ao Dr. Fabiano consegui mudar minha alimentação e aumentar minha disposição.',
-            result: 'Recuperou energia e a disposição no trabalho'
+            text: 'Realizar a reeducação alimentar com o Dr. Fabiano me ajudou a construir um estilo de vida mais saudável. Além de melhorar minha alimentação, esse processo mudou completamente minha autoestima e a forma como eu enxergava o estilo de vida que queria para mim. Também aumentou minha disposição e me fez perceber que ter uma vida saudável pode ser prazeroso.',
+            result: 'Recuperou energia e a disposição com uma vida saudável'
         }
     ];
     const handlePrevious = () => {

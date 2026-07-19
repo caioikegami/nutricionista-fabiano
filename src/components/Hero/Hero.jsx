@@ -5,7 +5,6 @@ import './Hero.css';
 const Hero = () => {
     return (
         <section id="inicio" className="hero">
-            <div className="container">
                 <div className="hero-content">
                     <div className="hero-text animate-slide-left">
                         <span className="hero-badge">Especialista em Nutrição Funcional</span>
@@ -38,7 +37,6 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
     );
 };

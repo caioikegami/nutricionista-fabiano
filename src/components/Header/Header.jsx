@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,26 +27,11 @@ const Header = () => {
     return window.location.pathname === path;
   };
 
-  const isProductActive = () => {
-    return location.pathname === '/servicos-produtos' && location.hash === '#produtos';
-  };
-
-  const handleProductsClick = (e) => {
-    if (location.pathname === '/servicos-produtos') {
-      e.preventDefault();
-      const element = document.getElementById('produtos');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-    closeMobileMenu();
-  };
-
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <nav className="nav-container container">
         <Link to="/" className="logo" onClick={closeMobileMenu}>
-          <img 
+          <img
             src={`${process.env.PUBLIC_URL}/logovittacore.png`}
             alt="VittaCore Logo"
             className="logo-image"
@@ -101,14 +85,14 @@ const Header = () => {
               Contato
             </Link>
           </nav>
-          <a 
-            href="https://wa.link/21a1uj" 
-            target="_blank" 
-            rel="noreferrer" 
-            className="btn btn-primary" 
+          <a
+            href="https://wa.link/21a1uj"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
             onClick={closeMobileMenu}
           >
-            Agende sua Consulta
+            Agendar Investigação Metabólica
           </a>
         </div>
       </nav>

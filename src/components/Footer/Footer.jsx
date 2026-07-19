@@ -70,7 +70,7 @@ const Footer = () => {
                     <p className="footer-copyright">
                         © {currentYear} Dr. Fabiano Rodrigues. Nutrição Funcional & Bem-estar.
                     </p>
-                    <p className="footer-crn">CRN3 87464/P</p>
+                    <p className="footer-crn">CRN-3 87464</p>
                 </div>
             </div>
         </footer>

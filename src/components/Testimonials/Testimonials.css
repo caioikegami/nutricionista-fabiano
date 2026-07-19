@@ -87,9 +87,8 @@
 
 .testimonial-role {
     margin: 0;
-    font-size: 12px;
+    font-size: 15px;
     color: var(--on-surface-variant);
-    text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
@@ -270,9 +269,8 @@
 
 .thumbnail-role {
     margin: 0;
-    font-size: 11px;
+    font-size: 15px;
     color: var(--on-surface-variant);
-    text-transform: uppercase;
     letter-spacing: 0.05em;
     white-space: nowrap;
     overflow: hidden;
